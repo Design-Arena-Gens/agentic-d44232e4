@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  background-color: theme("colors.background");
+}
+
+body {
+  @apply bg-background text-slate-100 min-h-screen;
+}
+
+* {
+  @apply antialiased;
+}
